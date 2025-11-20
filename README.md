@@ -33,3 +33,9 @@ Kubernetes comes with a few built-in namespaces:
 
 - To see details about a specific namespace
 ```kubectl describe namespace [my-app]```
+
+- To ensure the ArgoCD server pod is running and healthy:
+
+```kubectl get pods -n argocd```
+
+```kubectl port-forward svc/argocd-server -n argocd 8080:443```
