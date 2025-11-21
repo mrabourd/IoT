@@ -39,3 +39,6 @@ Kubernetes comes with a few built-in namespaces:
 ```kubectl get pods -n argocd```
 
 ```kubectl port-forward svc/argocd-server -n argocd 8080:443```
+
+
+Ingress is a Kubernetes resource that manages external (or internal) HTTP and HTTPS access to services in a cluster. It provides routing rules to direct traffic to different services based on the hostname or path in the request.
