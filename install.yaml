@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/mrabourd/IoT.git
     targetRevision: HEAD
-    path: p3/confs/dev
+    path: ./dev
   
   destination:
     server: https://kubernetes.default.svc
